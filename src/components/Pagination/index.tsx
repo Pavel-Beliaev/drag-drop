@@ -16,9 +16,9 @@ export const Pagination = () => {
 
   return (
     <div className='flex items-center justify-center w-full gap-x-2.5'>
-      {paginate.map((num) => (
+      {paginate.map((num, idx) => (
         <PaginationButton
-          key={num}
+          key={idx}
           isAble={num === 0}
           onClick={pageHandler}
           num={num}

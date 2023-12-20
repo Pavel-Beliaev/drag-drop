@@ -6,9 +6,13 @@ type PropsType = {
     event: React.DragEvent<HTMLDivElement>,
     post: ItemsType,
   ) => void;
-  onDragLeave: (event: React.DragEvent<HTMLDivElement>) => void;
+  onDragLeave: (
+    event: React.DragEvent<HTMLDivElement>,
+    post: ItemsType,
+  ) => void;
   onDragOver: (event: React.DragEvent<HTMLDivElement>) => void;
   onDrop: (event: React.DragEvent<HTMLDivElement>, post: ItemsType) => void;
+  onDragEnd: (event: React.DragEvent<HTMLDivElement>, post: ItemsType) => void;
   post: ItemsType;
 };
 export const Post: FC<PropsType> = ({
@@ -16,18 +20,19 @@ export const Post: FC<PropsType> = ({
   onDragLeave,
   onDragOver,
   onDrop,
+  onDragEnd,
   post,
 }) => {
   return (
-    <div
+    <p
       draggable
       onDragStart={(event) => onDragStart(event, post)}
-      onDragLeave={(event) => onDragLeave(event)}
+      onDragLeave={(event) => onDragLeave(event, post)}
       onDragOver={(event) => onDragOver(event)}
+      onDragEnd={(event) => onDragEnd(event, post)}
       onDrop={(event) => onDrop(event, post)}
-      className='card'>
-      <span className='whitespace-nowrap bg-inherit'>{'CAT FACT: '}</span>
+      className='cursor-grab'>
       {post.fact}
-    </div>
+    </p>
   );
 };
