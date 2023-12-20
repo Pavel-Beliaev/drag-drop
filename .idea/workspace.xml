@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5e47bae-d0c8-48c6-9527-df595f580cbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loader/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Posts/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Wrapper/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/postsSlice/asyncAction.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/postsSlice/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/postsSlice/slice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/postsSlice/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader/Skeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PaginationButton/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hock/usePaginate.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Wrapper/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContentBlock/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +67,8 @@
       <workItem from="1702958806543" duration="199000" />
       <workItem from="1702959025310" duration="1830000" />
       <workItem from="1702960893986" duration="18293000" />
-      <workItem from="1702980947529" duration="5971000" />
+      <workItem from="1702980947529" duration="6386000" />
+      <workItem from="1703041192924" duration="5734000" />
     </task>
     <servers />
   </component>

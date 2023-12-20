@@ -4,6 +4,6 @@
 
 @layer components {
     .card {
-        @apply flex gap-x-2 shadow rounded-md p-2.5 text-white bg-yellow-400 hover:bg-yellow-500 cursor-grab
+        @apply flex gap-x-2 shadow rounded-xl p-2.5 text-white bg-yellow-400 hover:bg-yellow-500 cursor-grab
     }
 }

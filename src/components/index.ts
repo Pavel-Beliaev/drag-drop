@@ -1,3 +1,5 @@
 export * from './Post';
 export * from './Posts';
-export * from './Wrapper';
+export * from './Pagination';
+export * from './PaginationButton';
+export * from './ContentBlock';
